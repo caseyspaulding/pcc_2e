@@ -1,0 +1,219 @@
+repo_name: caseyspaulding/pcc_2e
+report_id: 3066346259c3696a82c44a171d25474a
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-21T13:28:24+00:00'
+requested_by: ericwlange
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e/blob/master/chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: Django
+  description: A high-level Python Web framework that encourages rapid development
+    and clean
+  package_url: https://pypi.org/project/Django
+  version: '2.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e/blob/master/chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection in Django
+    cve_id: CVE-2022-28347
+    cve_url: https://github.com/advisories/GHSA-w24h-v9qh-8gxj
+    detected_date: Apr 23
+    severity: critical
+    first_patched: 2.2.28
+  - name: SQL Injection in Django
+    cve_id: CVE-2022-28346
+    cve_url: https://github.com/advisories/GHSA-2gwj-7jmv-h26r
+    detected_date: Apr 27
+    severity: critical
+    first_patched: 2.2.28
+  - name: Denial-of-service in Django
+    cve_id: CVE-2021-45115
+    cve_url: https://github.com/advisories/GHSA-53qw-q765-4fww
+    detected_date: Jan 13
+    severity: high
+    first_patched: 2.2.26
+  - name: Potential bypass of an upstream access control based on URL paths in Django
+    cve_id: CVE-2021-44420
+    cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
+    detected_date: Dec 14
+    severity: high
+    first_patched: 2.2.25
+  - name: Path Traversal in Django
+    cve_id: CVE-2021-31542
+    cve_url: https://github.com/advisories/GHSA-rxjp-mfm9-w4wr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.2.21
+  - name: Information disclosure in Django
+    cve_id: CVE-2021-45116
+    cve_url: https://github.com/advisories/GHSA-8c5j-9r9f-c6w8
+    detected_date: Jan 13
+    severity: high
+    first_patched: 2.2.26
+  - name: Directory Traversal in Django
+    cve_id: CVE-2021-28658
+    cve_url: https://github.com/advisories/GHSA-xgxc-v2qg-chmh
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.2.20
+  - name: Header injection possible in Django
+    cve_id: CVE-2021-32052
+    cve_url: https://github.com/advisories/GHSA-qm57-vhq3-3fwf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.2.22
+  - name: Directory-traversal in Django
+    cve_id: CVE-2021-45452
+    cve_url: https://github.com/advisories/GHSA-jrh2-hc4r-7jwx
+    detected_date: Jan 13
+    severity: moderate
+    first_patched: 2.2.26
+- name: dj-database-url
+  description: Use Database URLs in your Django Application
+  package_url: https://pypi.org/project/dj-database-url
+  version: 0.5.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20428/default_bd9b8499e6f547a7732694c637f33437a8c7ba95.png
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e/blob/master/chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: django-bootstrap4
+  description: Bootstrap support for Django projects
+  package_url: https://pypi.org/project/django-bootstrap4
+  version: 0.0.8
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e/blob/master/chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 19.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e/blob/master/chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: psycopg2
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2
+  version: 2.7.7
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e/blob/master/chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2018.9'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e/blob/master/chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: sqlparse
+  description: Non-validating SQL parser
+  package_url: https://pypi.org/project/sqlparse
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20039/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e/blob/master/chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+  vulnerabilities:
+  - name: sqlparse contains a regular expression that is vulnerable to Regular Expression
+      Denial of Service
+    cve_id: CVE-2023-30608
+    cve_url: https://github.com/advisories/GHSA-rrm6-wvj7-cwh2
+    detected_date: Apr 22
+    severity: moderate
+    first_patched: 0.4.4
+- name: whitenoise
+  description: Radically simplified static file serving for WSGI applications
+  package_url: https://pypi.org/project/whitenoise
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20302/default_e6bfb9eb79752f0f359e80676966e216a56792ab.png
+  detection_source_url: https://github.com/caseyspaulding/pcc_2e/blob/master/chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
